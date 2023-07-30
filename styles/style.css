@@ -1,0 +1,152 @@
+body {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #FFF8DE;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+
+}
+
+span {
+
+  border: none;
+  margin: 10px;
+}
+
+
+
+#manContainer {
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 50px;
+}
+
+#secretWord {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: :50px;
+}
+
+.man {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  margin: 0 auto;
+  position: relative;
+  width: 50px;
+  height: 100px;
+
+}
+
+.head {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.body {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 40px;
+  background-color: black;
+}
+
+.arms {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 20px;
+}
+
+.arm1 {
+  display: none;
+  position: absolute;
+  left: 30%;
+  width: 2px;
+  height: 20px;
+  background-color: black;
+  border-radius: 30%;
+  transform: rotate(45deg);
+}
+
+.arm2 {
+  display: none;
+  position: absolute;
+  left: 65%;
+  width: 2px;
+  height: 20px;
+  background-color: black;
+  border-radius: 30%;
+  transform: rotate(-45deg);
+}
+
+.legs {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 20px;
+}
+
+.leg1 {
+  display: none;
+  position: absolute;
+  left: 30%;
+  float: left;
+  width: 2px;
+  height: 20px;
+  background-color: black;
+  border-radius: 30%;
+  transform: rotate(45deg);
+}
+
+.leg2 {
+  display: none;
+  float: left;
+  width: 2px;
+  height: 20px;
+  background-color: black;
+  border-radius: 30%;
+  position: absolute;
+  left: 65%;
+  transform: rotate(-45deg);
+}
+
+.game {
+  display: none;
+
+}
+
+
+button {
+  margin-bottom: 10px;
+  background-color: #19A7CE;
+  width: 40px;
+  height: 40px;
+  font-size: 1.1rem;
+  border-radius: 30%;
+  color: white
+}
+
+#playButton {
+  width: max-content;
+  border-radius: 25px;
+  padding: 8px;
+  font-size: 0.9rem;
+}
